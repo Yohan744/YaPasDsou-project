@@ -26,7 +26,7 @@ Column(modifier = Modifier
    Column {
        Text(  buildAnnotatedString {
            withStyle(style = ParagraphStyle(lineHeight = 30.sp)) {
-               withStyle(style = SpanStyle(color = Color.White, fontSize = 30.sp)) {
+               withStyle(style = SpanStyle(color = Color.White, fontSize = 30.sp, fontFamily = int)) {
                    append("PAS DE SOUS ?")
                }}})
 

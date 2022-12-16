@@ -21,7 +21,7 @@ Column(modifier = Modifier
     .fillMaxSize()
     .background(color = MaterialTheme.colors.primary)) {
    Column {
-       Text("PAS DE SOUS ?", fontFamily = customFont)
+       Text("PAS DE SOUS ?", style=TextStyle(fontFamily = customFont))
 Text("Pas de sous")
    }
 }

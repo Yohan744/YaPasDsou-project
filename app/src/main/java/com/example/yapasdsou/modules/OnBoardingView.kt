@@ -17,6 +17,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.yapasdsou.ui.theme.customFont
 
 @Composable
 fun OnBoardingView() {
@@ -26,7 +27,7 @@ Column(modifier = Modifier
    Column {
        Text(  buildAnnotatedString {
            withStyle(style = ParagraphStyle(lineHeight = 30.sp)) {
-               withStyle(style = SpanStyle(color = Color.White, fontSize = 30.sp, fontFamily = int)) {
+               withStyle(style = SpanStyle(color = Color.White, fontSize = 30.sp, fontFamily = customFont, fontWeight = FontWeight.Medium)) {
                    append("PAS DE SOUS ?")
                }}})
 

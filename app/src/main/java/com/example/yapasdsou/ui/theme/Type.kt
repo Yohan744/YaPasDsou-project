@@ -29,9 +29,9 @@ val Typography = Typography(
     */
 )
 val customFont = FontFamily(
-    Font(R.font.integralCFMed, FontWeight.Normal),
-    Font(R.font.integralCFBold, FontWeight.Bold),
-    Font(R.font.integralCFDemiBold, FontWeight.Bold),
+    Font(R.font.integral_cf_med, FontWeight.Medium),
+    Font(R.font.integral_cf_demi_bold, FontWeight.SemiBold),
+    Font(R.font.integral_cf_bold, FontWeight.Bold),
 
     // If you have a font like bold italic, you can add it like that
     //Font(R.font.MY_BOLD_ITALIC_FONT_NAME, FontWeight.Bold, FontStyle.Italic),

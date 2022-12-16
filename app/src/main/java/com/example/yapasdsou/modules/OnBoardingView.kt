@@ -4,6 +4,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material.MaterialTheme
+import androidx.compose.material.MaterialTheme.typography
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -21,7 +22,7 @@ Column(modifier = Modifier
     .fillMaxSize()
     .background(color = MaterialTheme.colors.primary)) {
    Column {
-       Text("PAS DE SOUS ?", style= TextStyle(fontFamily= MaterialTheme., fontWeight = FontWeight.Medium, color = Color.White))
+       Text("PAS DE SOUS ?", style= TextStyle(fontWeight = FontWeight.Medium, color = Color.White, fontFamily = typography.h1.fontFamily))
 Text("Pas de sous")
    }
 }
